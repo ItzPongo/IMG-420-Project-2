@@ -60,7 +60,7 @@ The player is represented by an `Area2D` node with a `Sprite2D` child for the vi
 ## Notes and Troubleshooting
 - If the game fails to run or throws errors about missing scripts or assemblies, check the `Project2.csproj` file.
 - Make sure the Godot .NET SDK version matches your installed Godot version.
-- Adjust the `<TargetFramework>` in `Project2.csproj` if necessary to match your Godot C# version.
+- Adjust the `Sdk="Godot.NET.Sdk/4.5.0">` in `Project2.csproj` if necessary to match your Godot C# version.
 
 ---
 
